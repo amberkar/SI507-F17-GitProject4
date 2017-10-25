@@ -1,4 +1,5 @@
 # OAuth1 Code to access data from the Twitter API...
+#Hello!
 import requests_oauthlib
 import webbrowser
 import json
@@ -66,7 +67,7 @@ def get_tokens():
     # User will have to cut and paste the verifier or the whole redirect url
 
     # version where the website provides a verifier
-    verifier = raw_input('Please input the verifier>>> ')
+    #verifier = raw_input('Please input the verifier>>> ')
 
     # version where the website provides the entire redirect url
     # redirect_response = raw_input('Paste the full redirect URL here: ')
