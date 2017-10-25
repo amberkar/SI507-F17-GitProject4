@@ -39,7 +39,7 @@ def get_tokens():
     # }
     # It also saves the oauth_token as an instance variable of the object
     # oauth is bound to, so it can be used in later steps
-    fetch_response = oauth.fetch_request_token(request_token_url)
+    #fetch_response = oauth.fetch_request_token(request_token_url)
 
     # pull the two values out of the dictionary and store them in a variable for later use
     # note that d.get('somekey') is another way of writing d['somekey']
